@@ -25,6 +25,7 @@
 use Modern::Perl;
 use HTTP::Tiny;
 use JSON;
+use autodie;
 
 
 # Get module infomation, get_module_info($module)
